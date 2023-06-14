@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.Random;
 
 public class ConnectDB {
-    private final String url = Info.getDbUrl();// Port 번호 3306, DB명 diagnostics
+    private final String url = Info.getDbUrl();// DB명 diagnostics
     private final String userName = Info.getDbUser();
     private final String password = Info.getDbPw();
 
