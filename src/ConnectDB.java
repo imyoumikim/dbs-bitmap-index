@@ -4,9 +4,9 @@ import java.sql.*;
 import java.util.Random;
 
 public class ConnectDB {
-    private final String url = "jdbc:mysql://localhost:3306/diagnostics?verifyServerCertificate=false&useSSL=true"; // Port 번호 3306, DB명 diagnostics
-    private final String userName = "root";
-    private final String password = "1234";
+    private final String url = Info.getDbUrl();// Port 번호 3306, DB명 diagnostics
+    private final String userName = Info.getDbUser();
+    private final String password = Info.getDbPw();
 
     private Connection conn = null;
     private PreparedStatement pstmt = null;
