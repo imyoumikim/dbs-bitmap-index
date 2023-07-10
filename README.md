@@ -1,8 +1,7 @@
 # 데이타베이스시스템 과제
 [2023 Spring] Database System Project - bitmap index
-bitmap index를 지원하는 관계 DB 시스템의 설계 및 구현
 
-(File IO 필수, 디스크 기반 저장, 블록 단위 IO)
+bitmap index를 지원하는 관계 DB 시스템의 설계 및 구현 (File IO 필수, 디스크 기반 저장, 블록 단위 IO)
 
 ### 기능
 * 테이블 생성
